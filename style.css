@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1; /* Inicialmente a opacidade é 1 */
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px; /* Defina uma largura fixa para o container */
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 60px); /* Ajusta para dar espaço ao botão */
+    margin-right: 10px; /* Adiciona um espaço entre o input e o botão */
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+}
+
+.iconeTempo {
+    width: 30px;
+}
+
+img {
+    width: 20px;
+}
+
+.medium-box {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temperatura {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo dentro da small-box */
+    margin-top: 20px;
+}
+
+.descricao {
+    color: #fff;
+    margin-left: 10px; /* Ajusta a margem para melhor espaçamento */
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #fff;
+    margin-left: 10px; /* Muda de margin-right para margin-left para alinhar melhor */
+    margin-top: 0; /* Remove a margem superior para evitar espaços desnecessários */
+}
